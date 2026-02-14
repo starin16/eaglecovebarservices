@@ -1,0 +1,24 @@
+# WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backup-*
+wp-content/cache/
+wp-content/plugins/*/
+/wp-content/plugins/*
+!/wp-content/plugins/.gitkeep
+/wp-content/themes/*
+!/wp-content/themes/your-theme-name/
+
+# Environment
+.env
+.env.local
+.DS_Store
+node_modules/
+*.log
+.vscode/
+.idea/
+
+# Database
+*.sql
+*.sqlite
